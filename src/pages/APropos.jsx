@@ -5,9 +5,10 @@ import React from 'react';
 const APropos = () => {
   return (
     <div >
-      <section id="apropos" className="h-screen pt-5 bg-apropos">
-        {/* Contenu de la section Accueil */}
-        <h1 className="text-4xl text-center pt-24 font-['dream']">A propos</h1>
+      <section id="apropos" className="flex h-screen bg-apropos relative flex-col">
+      <div className="absolute opacity-10 font-[dream] text-4xl sm:text-4xl md:text-6xl lg:text-6xl rotate-0 md:-rotate-90 lg:-rotate-90 sm:rotate-0 top-20 left-1/2 transform -translate-x-1/2 md:top-1/2 lg:top-1/2 md:left-20 lg:left-20">
+        A PROPOS
+      </div>
 
         
       </section>
