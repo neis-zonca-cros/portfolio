@@ -25,7 +25,7 @@ const Sidenav = () => {
     });
   } else if (isMediumScreen || isLargeScreen) {
     backgroundTransition = useTransition(isOpen, {
-      from: { opacity: 1, transform: 'translateX(-100%) translateY(0%)' },
+      from: { opacity: 1, transform: 'translateX(100%) translateY(0%)' },
       enter: { opacity: 1, transform: 'translateX(0%) translateY(0%)' },
       leave: { opacity: 1, transform: 'translateX(0%) translateY(-100%)' },
     });
@@ -34,7 +34,7 @@ const Sidenav = () => {
 
   return (
     <div>
-<div className='fixed bottom-5 right-5 sm:sm:bottom-5 sm:right-5 md:right-auto md:bottom-auto md:top-1/2 md:left-1/2 md:transform md:-translate-x-1/2 lg:top-5 lg:left-1/2 lg:right-auto lg:bottom-auto lg:transform lg:-translate-x-1/2 z-[99] rounded-full p-2 border-4 border-border radius hover:scale-110 transition-transform ease-in-out duration-200'>
+<div className='fixed bottom-5 right-5 sm:sm:bottom-5 sm:right-5 md:top-5 md:right-5 md:bottom-auto lg:top-5 lg:right-5 lg:bottom-auto z-[99] rounded-full p-2 border-4 border-border radius hover:scale-110 transition-transform ease-in-out duration-200'>
   <Hamburger toggled={isOpen} toggle={toggleMenu} label="Ouvrir le menu" hideOutline={true} color="#37495f" distance="md" />
 </div>
 
