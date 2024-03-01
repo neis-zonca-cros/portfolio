@@ -10,8 +10,8 @@ const APropos = () => {
         <div className="absolute text-white opacity-40 font-[dream] text-4xl sm:text-4xl md:text-6xl lg:text-6xl rotate-0 md:-rotate-90 lg:-rotate-90 sm:rotate-0 top-20 left-1/2 transform -translate-x-1/2 md:top-1/2 lg:top-1/2 md:left-20 lg:left-20">
           A PROPOS
         </div>
-        <div className="absolute inset-0 bg-black opacity-40"></div>
-    <div className="font-[dream] pt-20 absolute left-1/2 transform -translate-x-1/2 top-1/2 -translate-y-1/2 text-center text-white z-10">
+        <div className="absolute inset-0 bg-black opacity-40 "></div>
+    <div className="font-[dream] pt-20 mt-4 absolute left-1/2 transform -translate-x-1/2 top-1/2 -translate-y-1/2 text-center text-white z-10">
     <br></br>
       <h1 className="text-white  items-center text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-4 ">Néïs</h1>
       <h2 className="text-white text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold mb-4">ZONCA CROS</h2>
