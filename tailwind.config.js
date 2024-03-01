@@ -6,8 +6,8 @@ export default {
       colors: {
         accueil: "#eed9bc",
         apropos: "#a7c4b1",
-        projets: "#c8a796",
-        menu: "#d19a60",
+        projets: "#9c6046",
+        menu: "#eed9bc",
         border: "#37495f",
       },
       animation: {

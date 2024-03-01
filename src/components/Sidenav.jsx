@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { Twirl as Hamburger } from 'hamburger-react';
 import { useTransition, animated } from '@react-spring/web';
 import { useMediaQuery } from 'react-responsive';
@@ -34,7 +35,7 @@ const Sidenav = () => {
   return (
     <div>
 <div className='fixed bottom-5 right-5 sm:sm:bottom-5 sm:right-5 md:right-auto md:bottom-auto md:top-1/2 md:left-1/2 md:transform md:-translate-x-1/2 lg:top-5 lg:left-1/2 lg:right-auto lg:bottom-auto lg:transform lg:-translate-x-1/2 z-[99] rounded-full p-2 border-4 border-border radius hover:scale-110 transition-transform ease-in-out duration-200'>
-  <Hamburger toggled={isOpen} toggle={toggleMenu} label="Show menu" hideOutline={true} color="#37495f" distance="md" />
+  <Hamburger toggled={isOpen} toggle={toggleMenu} label="Ouvrir le menu" hideOutline={true} color="#37495f" distance="md" />
 </div>
 
       {backgroundTransition((backgroundStyle, item) =>
@@ -44,18 +45,15 @@ const Sidenav = () => {
               <ul>
                 <div className='p-1 m-4 rounded-md hover:bg-border hover:scale-110 transition-transform ease-in-out duration-200'>
                   <li className=" bg-menu p-4">
-                  <a href='#accueil' className="text-border text-4xl sm:text-5xl md:text-6xl lg:text-7xl uppercase font-['dream']" onClick={toggleMenu}>Accueil</a>
-                  </li>
+                  <a href="#accueil" className="text-border text-4xl sm:text-5xl md:text-6xl lg:text-7xl uppercase font-['dream']" onClick={toggleMenu}>Accueil</a>                  </li>
                 </div>
                 <div className='p-1 m-4 rounded-md hover:bg-border hover:scale-110 transition-transform ease-in-out duration-200'>
                   <li className=" bg-menu p-4">
-                    <a href='#apropos' className="text-border text-4xl sm:text-5xl md:text-6xl lg:text-7xl uppercase font-['dream']" onClick={toggleMenu}>À propos</a>
-                  </li>
+                  <a href="#apropos" className="text-border text-4xl sm:text-5xl md:text-6xl lg:text-7xl uppercase font-['dream']" onClick={toggleMenu}>À propos</a>                  </li>
                 </div>
                 <div className='p-1 m-4 rounded-md hover:bg-border hover:scale-110 transition-transform ease-in-out duration-200'>
                   <li className=" bg-menu p-4">
-                    <a href='#projets' className="text-border text-4xl sm:text-5xl md:text-6xl lg:text-7xl uppercase font-['dream']"  onClick={toggleMenu}>Projets</a>
-                  </li>
+                  <a href="#projets" className="text-border text-4xl sm:text-5xl md:text-6xl lg:text-7xl uppercase font-['dream']" onClick={toggleMenu}>Projets</a>                  </li>
                 </div>
 
                 <div className='flex justify-center w-full'>
@@ -81,7 +79,7 @@ const Sidenav = () => {
                 <a href="mailto:neis.cros@gmail.com">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="40" height="40" stroke="currentColor" class="bg-border m-4 p-1 rounded-full hover:scale-110 transition-transform ease-in-out duration-200">
                     <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2" />
-                    <path stroke-width="2" stroke="#d19a60" stroke-linecap="round" stroke-linejoin="round" d="M16.5 12a4.5 4.5 0 1 1-9 0 4.5 4.5 0 0 1 9 0Zm0 0c0 1.657 1.007 3 2.25 3S21 13.657 21 12a9 9 0 1 0-2.636 6.364M16.5 12V8.25" />
+                    <path stroke-width="2" stroke="#eed9bc" stroke-linecap="round" stroke-linejoin="round" d="M16.5 12a4.5 4.5 0 1 1-9 0 4.5 4.5 0 0 1 9 0Zm0 0c0 1.657 1.007 3 2.25 3S21 13.657 21 12a9 9 0 1 0-2.636 6.364M16.5 12V8.25" />
                 </svg>
                 </a>
 
