@@ -23,9 +23,7 @@ export default {
       fontFamily: {
         'dream': ['Dream Orphans', 'sans-serif'],
       },
-      backgroundImage: {
-        'accueilI': "url('./src/assets/bgacc.jpg')",
-      }
+
     },
   },
   plugins: [],
