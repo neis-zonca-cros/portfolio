@@ -6,13 +6,7 @@ import bgacc from '../assets/bgacc.jpg';
 const Loader = () => {
     
     return (
-        <div className="h-screen flex justify-center items-center text-center flex-col" style={{
-            backgroundImage: `url(${bgacc})`,
-            backgroundSize: 'cover',
-            backgroundPosition: 'center',
-            backgroundRepeat: 'no-repeat',
-            display: 'flex',
-          }}>
+        <div className="h-screen bg-loader flex justify-center items-center text-center flex-col">
             <img src={loader} alt="Loader" />
             <h1 className="text-border pt-4 font-[dream] text-4xl sm:text-4xl md:text-4xl lg:text-4xl">Monde, <br></br>
             Attends moi...<br></br>
