@@ -40,7 +40,7 @@ const Sidenav = () => {
 
       {backgroundTransition((backgroundStyle, item) =>
         item && (
-          <animated.div style={backgroundStyle} className='fixed w-full h-screen bg-menu flex flex-col justify-center items-center z-20'>
+          <animated.div style={backgroundStyle} className='fixed w-full h-screen bg-menu flex flex-col justify-center items-center z-[98]'>
             <div className="text-border text-center">
               <ul>
                 <div className='p-1 m-4 rounded-md hover:bg-border hover:scale-110 transition-transform ease-in-out duration-200'>
