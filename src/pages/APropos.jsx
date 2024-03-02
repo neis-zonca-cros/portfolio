@@ -5,7 +5,7 @@ const APropos = () => {
   return (
     <section id="apropos">
       <div
-        className="relative min-h-screen" // Set minimum height instead of fixed height
+        className="relative min-h-screen" 
         style={{
           backgroundImage: `url(${bgap})`,
           backgroundSize: 'cover',

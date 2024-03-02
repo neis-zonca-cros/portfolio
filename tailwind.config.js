@@ -9,6 +9,7 @@ export default {
         projets: "#9c6046",
         menu: "#eed9bc",
         border: "#37495f",
+        loader: "#a87b47",
       },
       animation: {
         'infinite-scroll': 'infinite-scroll 25s linear infinite',
