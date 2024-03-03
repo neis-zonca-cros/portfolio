@@ -5,7 +5,7 @@ const APropos = () => {
   return (
     <section id="apropos">
       <div
-        className="relative min-h-screen" 
+        className="relative min-h-screen py-10" 
         style={{
           backgroundImage: `url(${bgap})`,
           backgroundSize: 'cover',

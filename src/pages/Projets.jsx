@@ -13,7 +13,8 @@ const Projets = () => {
       imageUrl: heuremedic,
       title: 'HEUREMEDIC',
       soustitre: 'Application iOS',
-      description: 'Projet réalisé en 17 jours',
+      temps: 'Projet réalisé en 17 jours',
+      // description: 'Heuremedic, c’est pour toutes les personnes que j’ai rencontré quand je portais une blouse blanche, \n Heuremedic c’est ma première application qui me prouve que coder c’est se mettre au service de l’autre, \n Et Heuremedic c’est prendre un Doliprane, et pouvoir oublier l’heure à laquelle on l’a pris et donner cette charge à l’appli ! \n Heuremedic, c’est un projet fait avec le ♥ ',
       techStack: ['SwiftUI', 'Xcode', 'CoreData', 'Git', 'Adobe XD', 'Photoshop'],
     },
     {
@@ -22,7 +23,7 @@ const Projets = () => {
       imageUrl: dataviz,
       title: 'La visible invisibilité',
       soustitre: 'Visualisation de données et API',
-      description: 'Projet réalisé en 6 jours',
+      temps: 'Projet réalisé en 6 jours',
       techStack: ['HTML/CSS', 'JavaScript', 'JSON', 'Git', 'Trello', 'API', 'AOS'],
     },
     {
@@ -31,7 +32,7 @@ const Projets = () => {
       imageUrl: portfolio,
       title: 'Portfolio Néïs ZONCA CROS',
       soustitre: 'React JS',
-      description: 'Projet réalisé en 10 jours',
+      temps: 'Projet réalisé en 10 jours',
       techStack: ['ReactJS', 'Vite', 'Tailwind', 'Git', 'Spline3D', 'VSCODE'],
     },
 
@@ -41,13 +42,13 @@ const Projets = () => {
       imageUrl: extension,
       title: 'Extension Chrome',
       soustitre: "Extension d'accessibilité ",
-      description: 'Projet réalisé en 7 jours',
+      temps: 'Projet réalisé en 7 jours ',
       techStack: ['JSON', 'Chrome Développeur', 'JS', 'VSCODE', 'Git'],
     },
   ]);
 
   return (
-    <div id='projets' className='min-h-screen pt-5 bg-projets relative flex flex-wrap items-center justify-center '>
+    <div id='projets' className='min-h-screen py-10 bg-projets relative flex flex-wrap items-center justify-center '>
       <div className='absolute opacity-20 font-[dream] text-3xl sm:text-3xl md:text-6xl lg:text-6xl rotate-0 md:-rotate-90 lg:-rotate-90 sm:rotate-0 top-10 left-1/2 transform -translate-x-1/2 md:top-1/2 lg:top-1/2 md:left-20 lg:left-20'>PROJETS TECH’</div>
       <div className='grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-5 w-full max-w-6xl mt-10 px-5'>
         {cards.map((card) => (
