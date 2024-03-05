@@ -17,7 +17,7 @@ const Card = ({ imageUrl, title, description, soustitre, techStack, lien, temps 
                 <div className="font-[dream] text-xl text-center">{title}</div>
                 <p className="text-gray-700 mt-2 text-base text-center font-[dream]">{soustitre}</p>
                 <p className="text-gray-700 text-xs text-center italic font-[dream]">{temps}</p>
-                <p className="text-gray-700 mt-2 text-sm text-center font-[dream]">{description}</p>
+                <p className="mt-2 text-sm text-center font-[dream] text-gray-700">{description}</p>
 
                 <div className="flex flex-wrap justify-center mt-5 mb-2">
                     {stackedTech}
