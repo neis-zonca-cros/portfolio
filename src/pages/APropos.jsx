@@ -60,7 +60,7 @@ const APropos = () => {
 
           <div className="inline-block m-2 rounded-md bg-black opacity-60 p-2 hover:scale-110 transition-transform ease-in-out duration-200">
             <a
-              href="/cv_zonca_cros.pdf"
+              href="/CV-zonca-cros.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="text-white uppercase font-['dream'] text-base sm:text-lg md:text-xl lg:text-2xl max-w-3xl block w-full truncate"
