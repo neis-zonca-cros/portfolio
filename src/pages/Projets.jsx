@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Card from '../components/Card';
 import heuremedic from '../assets/heuremedic.jpg';
-import dataviz from '../assets/dataviz.png'; 
+import dataviz from '../assets/datavizcopie.png'; 
 import portfolio from '../assets/portfolio.png';
 import extension from '../assets/extension.jpg';
 
@@ -27,20 +27,20 @@ const Projets = () => {
     },
     {
       key: 2,
-      lien: 'https://neis-zonca-cros.github.io/La-visible-invisibilite/',
+      lien: 'https://la-visible-invisibilite.netlify.app/',
       imageUrl: dataviz,
       title: 'La visible invisibilité',
       soustitre: 'Visualisation de données et API',
-      temps: 'Projet réalisé en 6 jours',
+      temps: 'Projet réalisé en 4 jours',
       description:(
         <>
-        La visible invisibilité c’est un projet à deux, <br />
+        La visible invisibilité c’est un projet de visualisation de données, <br />
         C’est récupérer le nom de toutes les rues de LYON grâce à une API, <br />
         Puis trier tout ces noms et les genrer grâce à une base de donnée, <br />
         Et en sortir une visualisation et des statistiques pour visibiliser l’invisible !<br />
         </>
       ),
-      techStack: ['HTML/CSS', 'JavaScript', 'JSON', 'Git', 'Trello', 'API', 'AOS'],
+      techStack: ['ReactJS', 'JSON', 'Git', 'API', 'VSCode', 'Photoshop'],
     },
     {
       key: 3,
